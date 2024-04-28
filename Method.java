@@ -13,6 +13,7 @@ public class Method {
         a = 10;
         b = 20;
         c = a+b;
+        //System.out.println(d); you are using the varibale which is declared, but not initialized : compiler will throw an error
         System.out.println("The addition is : " + c);
     }
 
